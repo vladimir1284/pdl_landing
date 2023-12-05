@@ -9,4 +9,3 @@ forms/contact.php
 scripts/setupTypeScript.js
 .svelte-kit/*
 .vscode/settings.json
-build/*
