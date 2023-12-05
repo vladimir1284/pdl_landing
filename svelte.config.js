@@ -7,7 +7,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
         paths: {
-            assets: dev ? '' : 'https://ladetec.github.io/build',
+            assets: dev ? '' : '',
         },
 		appDir: 'internal'
 	}
