@@ -1,11 +1,11 @@
 <script>
-	import ImageLoader from './Image/ImageLoader.svelte';
-  import Youtube from "svelte-youtube-embed";
+	import Youtube from "svelte-youtube-embed";
 
 	import Cog from 'svelte-material-icons/CogOutline.svelte';
+	import HeadLightbulb from 'svelte-material-icons/HeadLightbulb.svelte';
 	import ApplicationBracesOutline from 'svelte-material-icons/ApplicationBracesOutline.svelte';
 	import ChartAreaspline from 'svelte-material-icons/ChartAreaspline.svelte';
-	import SchoolOutline from 'svelte-material-icons/SchoolOutline.svelte';
+	import Power from 'svelte-material-icons/Power.svelte';
 	import CheckAll from 'svelte-material-icons/CheckAll.svelte';
 	import { base } from '$app/paths';
 
@@ -13,53 +13,52 @@
 		{
 			icon: Cog,
 			css_class: ' active show',
-			label: 'Servicios tecnológicos',
-			title: 'Servicios tecnológicos de radar',
+			label: 'Servicios de automatización',
+			title: 'Servicios de automatización',
 			image: 'Ke3ILwynhaE',
-			body: 'Ladetec desde 1990 tiene dominio completo de los sistemas de un radar meteorológico: sistema de energía primaria, transmisor, receptor, sistema de antena, procesador de señales y controlador del radar.',
+			body: 'Desarrollamos soluciones de automatización libres con énfasis en la Industria 4.0.',
 			bullets: [
-				'Mantenimientos preventivos y correctivos a radares meteorológicos',
-				'Montaje de radares meteorológicos fabricados por terceros',
-				'Diseño, fabricación y montaje a pedido de un radar meteorológico',
-				'Organización de un sistema de servicio técnico',
-				'Modernización de un radar completo o de algunas de sus partes',
-				'Asistencia técnica remota 24/7/365 a radares meteorológicos',
-				'Medición de la dosis de microondas radiada en el entorno de un radar'
+				'Reparación/modernización de sistemas industriales automáticos.',
+				'Modernización de equipos industriales para añadir supervisión y control a través de la Internet (IoT).',
+				'Sistemas de mantenimiento predictivo basados en el monitoreo continuo para prever y prevenir posibles fallos en los equipos industriales.',
+				'Identificamos oportunidades para la automatización de otros procesos dentro de la cadena de producción o logística de la empresa.'
 			]
 		},
 		{
 			icon: ApplicationBracesOutline,
 			css_class: '',
 			label: 'Servicios informáticos',
-			title: 'Servicios informáticos de radar',
-			image: `${base}/assets/img/Linea2.Software2.JPG`,
-			body: 'Ladetec desde 1988 ha desarrollado software propietario para la adquisición y procesamiento de la información de radar, así como para el control de todos los procesos en el radar.',
+			title: 'Servicios informáticos',
+			image: '5S6Q6Alpd_Y',
+			body: 'Ladetec ofrece una amplia gama de servicios de software, brindando soluciones integrales para optimizar la operación y rendimiento de tu negocio.',
 			bullets: [
-				'Instalación y adaptación del software libre NEXRAD-ORPG del USA-NWS para trabajar a partir de la información obtenida por cualquier radar meteorológico',
-				'Instalación y adaptación del software libre TITAN de NCAR para trabajar a partir de la información obtenida por cualquier radar meteorológico',
-				'Desarrollo e implementación de un software de control a la medida de cualquier radar (software libre, IoT)',
-				'Desarrollo e implementación de software libre para el procesamiento de las señales de radar',
-				'Sistema de manipulación de datos primarios archivados'
+				'Páginas web.',
+				'Catálogos en línea.',
+				'Tienda en línea.',
+				'Menú digital.',
+				'Bitácoras (blog).',
+				'Aplicaciones para celulares.',
+				'Software de gestión, control de inventarios.'
 			]
 		},
 		{
-			icon: ChartAreaspline,
+			icon: Power,
 			css_class: '',
-			label: 'Servicios de aplicación',
-			title: 'Servicios de aplicaciones de radar',
-			image: `${base}/assets/img/Línea3.Aplicación.jpg`,
-			body: 'A partir del año 2008 Ladetec asume el trabajo de vigilancia meteorológica por radar basado en las más modernas técnicas de la Meteorología Radárica y desarrolla métodos de análisis y presentación de la información de radar.',
+			label: 'Instalaciones Eléctricas',
+			title: 'Servicios de Instalaciones Eléctricas',
+			image: 'had3b88-V3Q',
+			body: 'Ladetec destaca en sus servicios eléctricos por la alta capacitación y gran experiencia de sus especialistas.',
 			bullets: [
-				'Organización de un servicio de vigilancia de tormentas por radar',
-				'Organización de un servicio de estimación de las precipitaciones por radar',
-				'Servicio de detección y seguimiento de tormentas tropicales',
-				'Monitoreo remoto de la calidad de la información de una red de radares',
-				'Organización de monitoreo por radar para la agricultura y la aviación',
-				'Monitoreo del cambio climático por medio de información de radar'
+				'Reparación o cableado nuevo de instalaciones eléctricas.',
+				'Diseño e instalación de sistemas de alimentación ininterrumpida.',
+				'Reparación/modernización de sistemas eléctricos de automática industrial.',
+				'Diseño de sistemas de protecciones eléctricas.',
+				'Sistemas remoto de monitorización de energía.',
+				'Estudios energéticos y acomodos de carga.'
 			]
 		},
 		{
-			icon: SchoolOutline,
+			icon: HeadLightbulb,
 			css_class: '',
 			label: 'Servicios de capacitación',
 			title: 'Servicios de capacitación y asesoría',
@@ -131,8 +130,7 @@
 							data-aos="fade-up"
 							data-aos-delay="200"
 						>
-							<!-- <ImageLoader src={tab.image} alt="" css_class="my-auto img-fluid" /> -->
-							<Youtube id={tab.image} />
+							<Youtube id={tab.image} --title-color="#111111" />
 						</div>
 					</div>
 				</div>

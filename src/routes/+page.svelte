@@ -8,10 +8,10 @@
 	import About from '../lib/about/about.svelte';
 	import Count from '../lib/count.svelte';
 	import Tabs from '../lib/tabs.svelte';
-	import Hitos from '../lib/hitos/hitos.svelte';
 	import Portfolio from '../lib/portfolio.svelte';
 	import Testimonials from '../lib/testimonials/testimonials.svelte';
 	import Team from '../lib/team/team.svelte';
+	import Footer from '../lib/footer.svelte';
 
 	import { template } from '../lib/template';
 
@@ -23,7 +23,7 @@
 <About />
 <Count />
 <Tabs />
-<Hitos />
+<Team />
 <Portfolio />
 <Testimonials />
-<Team />
+<Footer />

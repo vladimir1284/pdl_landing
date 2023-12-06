@@ -1,108 +1,77 @@
+<script>
+	import { Facebook, Linkedin, Twitter, Tiktok, Instagram } from 'svelte-simples';
+</script>
 <footer id="footer">
 	<div class="footer-top">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6 footer-contact">
-					<h3>Presento<span>.</span></h3>
+				<div class="col-lg-4 col-md-6 footer-contact">
+					<h3>Towit Houston<span>.</span></h3>
 					<p>
-						A108 Adam Street <br />
-						New York, NY 535022<br />
+						6011 Liberty Rd<br />
+						Houston, TX 77026<br />
 						United States <br /><br />
-						<strong>Phone:</strong> +1 5589 55488 55<br />
-						<strong>Email:</strong> info@example.com<br />
+						<strong>Phone:</strong> +1 (832) 963-5145<br />
+						<strong>Correo:</strong> info@towithouston.com<br />
 					</p>
-				</div>
-
-				<div class="col-lg-2 col-md-6 footer-links">
-					<h4>Useful Links</h4>
-					<ul>
-						<li>
-							<i class="bx bx-chevron-right" />
-							<a href="/#">Home</a>
-						</li>
-						<li>
-							<i class="bx bx-chevron-right" />
-							<a href="/#">About us</a>
-						</li>
-						<li>
-							<i class="bx bx-chevron-right" />
-							<a href="/#">Services</a>
-						</li>
-						<li>
-							<i class="bx bx-chevron-right" />
-							<a href="/#">Terms of service</a>
-						</li>
-						<li>
-							<i class="bx bx-chevron-right" />
-							<a href="/#">Privacy policy</a>
-						</li>
-					</ul>
 				</div>
 
 				<div class="col-lg-3 col-md-6 footer-links">
-					<h4>Our Services</h4>
+					<h4>Enlaces de interés</h4>
 					<ul>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#">Web Design</a>
+							<a href="/#hero">Inicio</a>
 						</li>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#">Web Development</a>
+							<a href="/#about">Conócenos</a>
 						</li>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#">Product Management</a>
+							<a href="/#tabs">Servicios</a>
 						</li>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#">Marketing</a>
+							<a href="/#hero">Términos de servicio</a>
 						</li>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#">Graphic Design</a>
+							<a href="/#hero">Políticas de privacidad</a>
 						</li>
 					</ul>
 				</div>
 
-				<div class="col-lg-4 col-md-6 footer-newsletter">
-					<h4>Join Our Newsletter</h4>
-					<p>
-						Tamen quem nulla quae legam multos aute sint culpa legam
-						noster magna
-					</p>
-					<form action="" method="post">
-						<input type="email" name="email" /><input
-							type="submit"
-							value="Subscribe"
-						/>
-					</form>
+				<div class="col-lg-4 col-md-6 footer-links">
+					<h4>Nuestros servicios</h4>
+					<ul>
+						<li>
+							<i class="bx bx-chevron-right" />
+							<a href="/#tabs">Alquiler de remolques</a>
+						</li>
+						<li>
+							<i class="bx bx-chevron-right" />
+							<a href="/#tabs">Reparación</a>
+						</li>
+						<li>
+							<i class="bx bx-chevron-right" />
+							<a href="/#tabs">Modificaciones</a>
+						</li>
+						<li>
+							<i class="bx bx-chevron-right" />
+							<a href="/#tabs">Mantenimiento</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row footer-newsletter">					
+				<div class="col-12 social-links text-center pt-3 pt-md-0">
+					<a href="https://www.tiktok.com/@towithouston" class="twitter"><Twitter size="1em" color="#0000cc" /></a>
+					<a href="https://www.facebook.com/profile.php?id=100089567692080" class="facebook"><Facebook size="1em" color="#0000cc" /></a>
+					<a href="https://www.linkedin.com/company/89359305" class="linkedin"><Linkedin size="1em" color="#0000cc" /></a>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container d-md-flex py-4">
-		<div class="me-md-auto text-center text-md-start">
-			<div class="copyright">
-				&copy; Copyright <strong><span>Presento</span></strong>. All
-				Rights Reserved
-			</div>
-			<div class="credits">
-				<!-- All the links in the footer should remain intact. -->
-				<!-- You can delete the links only if you purchased the pro version. -->
-				<!-- Licensing information: https://bootstrapmade.com/license/ -->
-				<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ -->
-				Designed by
-				<a href="https://bootstrapmade.com/">BootstrapMade</a>
-			</div>
-		</div>
-		<div class="social-links text-center text-md-end pt-3 pt-md-0">
-			<a href="/#" class="twitter"><i class="bx bxl-twitter" /></a>
-			<a href="/#" class="facebook"><i class="bx bxl-facebook" /></a>
-			<a href="/#" class="instagram"><i class="bx bxl-instagram" /></a>
-			<a href="/#" class="google-plus"><i class="bx bxl-skype" /></a>
-			<a href="/#" class="linkedin"><i class="bx bxl-linkedin" /></a>
-		</div>
-	</div>
 </footer>
