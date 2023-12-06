@@ -19,6 +19,7 @@
 		`${base}/assets/img/clients/insmet.png`,
 		`${base}/assets/img/clients/bebidas.jpg`,
 		`${base}/assets/img/clients/lacteo.jpg`,
+		`${base}/assets/img/clients/radiocuba.jpeg`,
 	];
 </script>
 

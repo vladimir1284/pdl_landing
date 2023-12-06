@@ -53,25 +53,24 @@
 				'Diseño e instalación de sistemas de alimentación ininterrumpida.',
 				'Reparación/modernización de sistemas eléctricos de automática industrial.',
 				'Diseño de sistemas de protecciones eléctricas.',
-				'Sistemas remoto de monitorización de energía.',
+				'Desarrollo de soluciones para la gestión eficiente de la energía, incluyendo sistemas de monitorización y control.',
 				'Estudios energéticos y acomodos de carga.'
 			]
 		},
 		{
 			icon: HeadLightbulb,
 			css_class: '',
-			label: 'Servicios de capacitación',
-			title: 'Servicios de capacitación y asesoría',
-			image: `${base}/assets/img/Linea4.Capacitación.jpg`,
+			label: 'Otros Servicios',
+			title: 'Otros Servicios',
+			image: 'cqWKSraG-bk',
 			body: 'Ladetec tiene una larga experiencia en el entrenamiento y la capacitación del personal de servicio técnico y del personal de la explotación de la información de radar.',
 			bullets: [
-				'Asesoría para la adquisición de radares meteorológicos',
-				'Confección de especificaciones técnicas para la adquisición de un radar',
-				'Selección de la ubicación de un radar meteorológico',
-				'Cursos de entrenamiento presencial (servicio técnico, explotación de radar)',
-				'Cursos de Tecnologías de Radar y métodos de Meteorología de Radar',
-				'Tutoría de tesis de maestría o doctorado en temas de Meteorología de Radar o Tecnologías de Radar',
-				'Cursos a distancia en temáticas específicas de Radares Meteorológicos'
+				'Asesoría para la compra de equipamiento eléctrico, automática, computación o sistemas completos.',
+				'Asesoría para la creación de puestos de mando y salas situacionales.',
+				'Desarrollo de sistemas expertos con uso de la inteligencia artificial.',
+				'Asesoría en la planificación y ejecución de proyectos tecnológicos, desde la concepción hasta la implementación.',
+				'Implementación de herramientas y algoritmos para analizar grandes conjuntos de datos y extraer información valiosa.',
+
 			]
 		}
 	];
