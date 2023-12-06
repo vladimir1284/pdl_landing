@@ -7,19 +7,22 @@
 
 	const items = [
 		{
-			image: 'assets/img/portfolio/portfolio-1.jpg',
-			title: 'App 1',
-			category: 'App'
+			image: 'assets/img/portfolio/Autoclave/main.jpg',
+			title: 'Autoclave',
+			category: 'Hardware',
+			url: ''
 		},
 		{
-			image: 'assets/img/portfolio/portfolio-2.jpg',
-			title: 'Web 1',
-			category: 'Web'
+			image: 'assets/img/portfolio/Woo/store.png',
+			title: 'Tienda',
+			category: 'Software',
+			url: 'https://www.ladetec.com/puntoino/'
 		},
 		{
 			image: 'assets/img/portfolio/portfolio-3.jpg',
 			title: 'Web 2',
-			category: 'Web'
+			category: 'Web',
+			url: ''
 		}
 	];
 </script>
@@ -29,19 +32,19 @@
 		<div class="section-title">
 			<h2>Portfolio</h2>
 			<p>
-				Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-				Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
-				alias ea.
+				En nuestro apasionante viaje hacia la excelencia tecnológica, 
+				nos enorgullece presentarles nuestro portafolio, una ventana 
+				hacia el mundo de soluciones avanzadas y servicios de vanguardia. 
 			</p>
 		</div>
 
 		<div class="row" data-aos="fade-up" data-aos-delay="100">
 			<div class="col-lg-12 d-flex justify-content-center">
 				<ul id="portfolio-flters">
-					<li data-filter="*" class="filter-active">All</li>
-					<li data-filter=".filter-app">App</li>
-					<li data-filter=".filter-card">Card</li>
-					<li data-filter=".filter-web">Web</li>
+					<li data-filter="*" class="filter-active">Todos</li>
+					<li data-filter=".filter-app">Hardware</li>
+					<li data-filter=".filter-card">Software</li>
+					<li data-filter=".filter-web">Otros</li>
 				</ul>
 			</div>
 		</div>
@@ -74,11 +77,12 @@
 										<Plus width="1em" height="1em" />
 									</i></a
 								>
-								<a href="/#" title="More Details"
-									><i class="bx">
+								{#if item.url != ''}
+									<a target=blank href="{item.url}" title="More Details">
+										<i class="bx">
 										<Link width="1em" height="1em" />
-									</i></a
-								>
+									</i></a>									
+								{/if}
 							</div>
 						</div>
 					</div>

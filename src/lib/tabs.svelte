@@ -63,7 +63,7 @@
 			label: 'Otros Servicios',
 			title: 'Otros Servicios',
 			image: 'cqWKSraG-bk',
-			body: 'Ladetec tiene una larga experiencia en el entrenamiento y la capacitación del personal de servicio técnico y del personal de la explotación de la información de radar.',
+			body: 'Ladetec tiene una larga experiencia en la asesoría y la capacitación del personal de servicio técnico.',
 			bullets: [
 				'Asesoría para la compra de equipamiento eléctrico, automática, computación o sistemas completos.',
 				'Asesoría para la creación de puestos de mando y salas situacionales.',

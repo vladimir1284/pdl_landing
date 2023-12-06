@@ -34,6 +34,7 @@
 	"type": "module",
 	"dependencies": {
 		"glightbox": "^3.2.0",
+		"svelte-carousel": "^1.0.25",
 		"svelte-counter": "^1.0.0",
 		"svelte-inview": "^4.0.0",
 		"svelte-material-icons": "^3.0.4",
