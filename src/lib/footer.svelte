@@ -1,6 +1,7 @@
 <script>
 	import { Facebook, Linkedin, Twitter, Youtube, Instagram, Whatsapp } from 'svelte-simples';
 </script>
+
 <footer id="footer">
 	<div class="footer-top">
 		<div class="container">
@@ -11,7 +12,7 @@
 						San Ramón #297A % San José y San Martín<br />
 						Camagüey, Camagüey 70100<br />
 						Cuba <br /><br />
-						<strong>Phone:</strong> +53 52871042<br />
+						<strong>Phone:</strong> <a href="tel:+53 52871042">+53 52871042</a><br />
 						<strong>Correo:</strong> info@ladetec.com<br />
 					</p>
 				</div>
@@ -35,10 +36,6 @@
 							<i class="bx bx-chevron-right" />
 							<a href="/#portfolio">Portaforlio</a>
 						</li>
-						<li>
-							<i class="bx bx-chevron-right" />
-							<a href="/#hero">Políticas de privacidad</a>
-						</li>
 					</ul>
 				</div>
 
@@ -47,32 +44,39 @@
 					<ul>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#tabs">Alquiler de remolques</a>
+							<a href="/#tabs">Automatización Industrial</a>
 						</li>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#tabs">Reparación</a>
+							<a href="/#tabs">Desarrollo de Software</a>
 						</li>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#tabs">Modificaciones</a>
+							<a href="/#tabs">Instalaciones Eléctricas</a>
 						</li>
 						<li>
 							<i class="bx bx-chevron-right" />
-							<a href="/#tabs">Mantenimiento</a>
+							<a href="/#tabs">Inteligencia de Negocio</a>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div class="row footer-newsletter">					
+			<div class="row footer-newsletter">
 				<div class="col-12 social-links text-center pt-3 pt-md-0">
-					<a href="https://www.youtube.com/@LADETEC" class="youtube"><Youtube size="1em" color="#0000cc" /></a>
-					<a href="https://msng.link/o?5354873173=wa" class="whatsapp"><Whatsapp size="1em" color="#0000cc" /></a>
-					<a href="https://www.facebook.com/profile.php?id=100089567692080" class="facebook"><Facebook size="1em" color="#0000cc" /></a>
-					<a href="https://www.linkedin.com/company/89359305" class="linkedin"><Linkedin size="1em" color="#0000cc" /></a>
+					<a href="https://www.youtube.com/@LADETEC" class="youtube"
+						><Youtube size="1em" color="#0000cc" /></a
+					>
+					<a href="https://msng.link/o?5354873173=wa" class="whatsapp"
+						><Whatsapp size="1em" color="#0000cc" /></a
+					>
+					<a href="https://www.facebook.com/profile.php?id=100089567692080" class="facebook"
+						><Facebook size="1em" color="#0000cc" /></a
+					>
+					<a href="https://www.linkedin.com/company/89359305" class="linkedin"
+						><Linkedin size="1em" color="#0000cc" /></a
+					>
 				</div>
 			</div>
 		</div>
 	</div>
-
 </footer>

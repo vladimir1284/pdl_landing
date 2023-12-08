@@ -6,7 +6,7 @@
     "highlights": [{
             "icon": "LayersTripleOutline",
             "title": "Integralidad",
-            "body": "Soluciones integrales desde las microondas hasta el análisis de la información y el aviso de fenómenos peligrosos para cualquier tipo de radar."
+            "body": "Soluciones integrales de software, automática y electricidad, con un equipo de profesionales altamente calificados y con una amplia experiencia en el sector."
         },
         {
             "icon": "Cog",
@@ -16,12 +16,12 @@
         {
             "icon": "LockOpen",
             "title": "Soberanía",
-            "body": "Soluciones sostenibles, flexibles y adaptativas ante los cambios tecnológicos que ocurren al paso del tiempo. Permiten la modificación y modernización continua y permanente del equipamiento."
+            "body": "Soluciones soberanas de software y hardware libre que garantizan la seguridad de los datos del cliente y la independencia de fabricantes extranjeros."
         },
         {
             "icon": "Leaf",
             "title": "Eficiencia",
-            "body": "Soluciones energéticamente eficientes y eficaces en el logro de los objetivos."
+            "body": "Soluciones energéticamente eficientes y eficaces, que permiten optimizar el consumo de energía y alcanzar nuestros objetivos de manera más efectiva."
         }
     ]
 }
