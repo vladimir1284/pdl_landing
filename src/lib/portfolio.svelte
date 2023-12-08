@@ -7,22 +7,25 @@
 
 	const items = [
 		{
-			image: 'assets/img/portfolio/Autoclave/main.jpg',
+			image: 'main.jpg',
+			folder: 'assets/img/portfolio/Autoclave/',
 			title: 'Autoclave',
 			category: 'Hardware',
-			url: ''
+			url: 'https://meteoradares.wordpress.com/2023/11/25/ladetec-se-esteriliza/'
 		},
 		{
-			image: 'assets/img/portfolio/Woo/store.png',
+			image: 'store.png',
+			folder: 'assets/img/portfolio/Woo/',
 			title: 'Tienda',
 			category: 'Software',
 			url: 'https://www.ladetec.com/puntoino/'
 		},
 		{
-			image: 'assets/img/portfolio/portfolio-3.jpg',
+			image: 'portfolio-3.jpg',
+			folder: 'assets/img/portfolio/Sopladora/',
 			title: 'Web 2',
 			category: 'Web',
-			url: ''
+			url: 'https://meteoradares.wordpress.com/2023/08/13/ladetec-se-mete-en-vinagre/'
 		}
 	];
 </script>
@@ -32,9 +35,9 @@
 		<div class="section-title">
 			<h2>Portfolio</h2>
 			<p>
-				En nuestro apasionante viaje hacia la excelencia tecnológica, 
-				nos enorgullece presentarles nuestro portafolio, una ventana 
-				hacia el mundo de soluciones avanzadas y servicios de vanguardia. 
+				En nuestro apasionante viaje hacia la excelencia tecnológica, nos enorgullece presentarles
+				nuestro portafolio, una ventana hacia el mundo de soluciones avanzadas y servicios de
+				vanguardia.
 			</p>
 		</div>
 
@@ -78,10 +81,11 @@
 									</i></a
 								>
 								{#if item.url != ''}
-									<a target=blank href="{item.url}" title="More Details">
+									<a target="blank" href={item.url} title="More Details">
 										<i class="bx">
-										<Link width="1em" height="1em" />
-									</i></a>									
+											<Link width="1em" height="1em" />
+										</i></a
+									>
 								{/if}
 							</div>
 						</div>
