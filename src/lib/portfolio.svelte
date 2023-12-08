@@ -21,10 +21,10 @@
 			url: 'https://www.ladetec.com/puntoino/'
 		},
 		{
-			image: 'portfolio-3.jpg',
+			image: 'soplado-botellas.jpg',
 			folder: 'assets/img/portfolio/Sopladora/',
-			title: 'Web 2',
-			category: 'Web',
+			title: 'Sopladora',
+			category: 'Hardware',
 			url: 'https://meteoradares.wordpress.com/2023/08/13/ladetec-se-mete-en-vinagre/'
 		}
 	];
@@ -63,7 +63,7 @@
 					<div class="portfolio-wrap">
 						<ImageLoader
 							on:load={onload}
-							src={`${base}/` + item.image}
+							src={`${base}/` + item.folder + item.image}
 							alt=""
 							css_class={'img-fluid'}
 						/>
@@ -75,7 +75,7 @@
 									href="assets/img/portfolio/portfolio-1.jpg"
 									data-gallery="portfolioGallery"
 									class="portfolio-lightbox"
-									title="App 1"
+									title="Gallery"
 									><i class="bx">
 										<Plus width="1em" height="1em" />
 									</i></a
