@@ -9,14 +9,49 @@
 			"modal_open": false,
 			"images": [
 				{
+					"alt": "Equipo roto",
+					"src": "assets/img/portfolio/Autoclave/roto.jpg",
+					"title": "Equipo roto"
+				},
+				{
 					"alt": "Reparación",
 					"src": "assets/img/portfolio/Autoclave/vladimir.jpg",
 					"title": "Reparación"
 				},
 				{
-					"alt": "Tapa",
-					"src": "assets/img/portfolio/Autoclave/tapa.jpg",
-					"title": "Tapa"
+					"alt": "Placa",
+					"src": "assets/img/portfolio/Autoclave/esp32.jpg",
+					"title": "Placa"
+				},
+				{
+					"alt": "Esquema",
+					"src": "assets/img/portfolio/Autoclave/esquema-Altirum.jpg",
+					"title": "Esquema"
+				},
+				{
+					"alt": "PCB",
+					"src": "assets/img/portfolio/Autoclave/PCB.jpg",
+					"title": "PCB"
+				},
+				{
+					"alt": "Ingeniería inversa",
+					"src": "assets/img/portfolio/Autoclave/TarjetaInterfazAutoclave.JPG",
+					"title": "Ingeniería inversa"
+				},
+				{
+					"alt": "Mímico",
+					"src": "assets/img/portfolio/Autoclave/mimico.jpg",
+					"title": "Mímico"
+				},
+				{
+					"alt": "Gráficos históricos",
+					"src": "assets/img/portfolio/Autoclave/historicos.jpg",
+					"title": "Gráficos históricos"
+				},
+				{
+					"alt": "Equipo reparado",
+					"src": "assets/img/portfolio/Autoclave/funcionando.jpg",
+					"title": "Equipo reparado"
 				}
 			]
 		},
@@ -34,7 +69,69 @@
 			"title": "Sopladora",
 			"category": "Hardware",
 			"url": "https://meteoradares.wordpress.com/2023/08/13/ladetec-se-mete-en-vinagre/",
-			"modal_open": false
+			"modal_open": false,
+			"images": [
+				{
+					"alt": "Antes y después",
+					"src": "assets/img/portfolio/Sopladora/antes_después.jpg",
+					"title": "Antes y después"
+				},
+				{
+					"alt": "Máquina",
+					"src": "assets/img/portfolio/Sopladora/maquina.jpg",
+					"title": "Máquina"
+				},
+				{
+					"alt": "Moldes",
+					"src": "assets/img/portfolio/Sopladora/moldes.jpg",
+					"title": "Moldes"
+				},
+				{
+					"alt": "PLC",
+					"src": "assets/img/portfolio/Sopladora/plc.jpg",
+					"title": "PLC"
+				},
+				{
+					"alt": "Programación",
+					"src": "assets/img/portfolio/Sopladora/programming.jpg",
+					"title": "Programación"
+				},
+				{
+					"alt": "Código",
+					"src": "assets/img/portfolio/Sopladora/code.png",
+					"title": "Código"
+				},
+				{
+					"alt": "Panel",
+					"src": "assets/img/portfolio/Sopladora/panel.jpg",
+					"title": "Panel"
+				},
+				{
+					"alt": "Pantallas",
+					"src": "assets/img/portfolio/Sopladora/pantallas.png",
+					"title": "Pantallas"
+				},
+				{
+					"alt": "Los ingenieros",
+					"src": "assets/img/portfolio/Sopladora/Robert_arturo.jpg",
+					"title": "Los ingenieros"
+				},
+				{
+					"alt": "Los pesos pesados",
+					"src": "assets/img/portfolio/Sopladora/pesos_pesados.jpg",
+					"title": "Los pesos pesados"
+				},
+				{
+					"alt": "Leo",
+					"src": "assets/img/portfolio/Sopladora/leo.jpg",
+					"title": "Leo"
+				},
+				{
+					"alt": "La producción",
+					"src": "assets/img/portfolio/Sopladora/pomos.jpg",
+					"title": "La producción"
+				}
+			]
 		}
     ]
 }
