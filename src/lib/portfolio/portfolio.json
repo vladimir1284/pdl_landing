@@ -1,0 +1,40 @@
+{
+    "items":[
+        {
+			"image": "main.jpg",
+			"folder": "assets/img/portfolio/Autoclave/",
+			"title": "Autoclave",
+			"category": "Hardware",
+			"url": "https://meteoradares.wordpress.com/2023/11/25/ladetec-se-esteriliza/",
+			"modal_open": false,
+			"images": [
+				{
+					"alt": "Reparación",
+					"src": "assets/img/portfolio/Autoclave/vladimir.jpg",
+					"title": "Reparación"
+				},
+				{
+					"alt": "Tapa",
+					"src": "assets/img/portfolio/Autoclave/tapa.jpg",
+					"title": "Tapa"
+				}
+			]
+		},
+		{
+			"image": "store.png",
+			"folder": "assets/img/portfolio/Woo/",
+			"title": "Tienda",
+			"category": "Software",
+			"url": "https://www.ladetec.com/puntoino/",
+			"modal_open": false
+		},
+		{
+			"image": "soplado-botellas.jpg",
+			"folder": "assets/img/portfolio/Sopladora/",
+			"title": "Sopladora",
+			"category": "Hardware",
+			"url": "https://meteoradares.wordpress.com/2023/08/13/ladetec-se-mete-en-vinagre/",
+			"modal_open": false
+		}
+    ]
+}

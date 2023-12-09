@@ -1,4 +1,5 @@
 <script>
+	import '../app.pcss';
 	import Header from '../lib/header.svelte';
 	import ArrowUp from 'svelte-material-icons/ArrowUp.svelte';
 	import '../css/bootstrap.css';

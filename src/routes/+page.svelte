@@ -8,7 +8,7 @@
 	import About from '../lib/about/about.svelte';
 	import Count from '../lib/count.svelte';
 	import Tabs from '../lib/tabs.svelte';
-	import Portfolio from '../lib/portfolio.svelte';
+	import Portfolio from '../lib/portfolio/portfolio.svelte';
 	import Testimonials from '../lib/testimonials/testimonials.svelte';
 	import Team from '../lib/team/team.svelte';
 	import Footer from '../lib/footer.svelte';

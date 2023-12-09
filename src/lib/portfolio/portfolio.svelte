@@ -1,33 +1,12 @@
 <script>
-	import ImageLoader from './Image/ImageLoader.svelte';
+	import ImageLoader from '../Image/ImageLoader.svelte';
+	import { Modal, Carousel } from 'flowbite-svelte';
 
 	import Plus from 'svelte-material-icons/Plus.svelte';
 	import Link from 'svelte-material-icons/Link.svelte';
 	import { base } from '$app/paths';
-
-	const items = [
-		{
-			image: 'main.jpg',
-			folder: 'assets/img/portfolio/Autoclave/',
-			title: 'Autoclave',
-			category: 'Hardware',
-			url: 'https://meteoradares.wordpress.com/2023/11/25/ladetec-se-esteriliza/'
-		},
-		{
-			image: 'store.png',
-			folder: 'assets/img/portfolio/Woo/',
-			title: 'Tienda',
-			category: 'Software',
-			url: 'https://www.ladetec.com/puntoino/'
-		},
-		{
-			image: 'soplado-botellas.jpg',
-			folder: 'assets/img/portfolio/Sopladora/',
-			title: 'Sopladora',
-			category: 'Hardware',
-			url: 'https://meteoradares.wordpress.com/2023/08/13/ladetec-se-mete-en-vinagre/'
-		}
-	];
+	import data from './portfolio.json';
+	const items = data.items;
 </script>
 
 <section id="portfolio" class="portfolio">
@@ -59,6 +38,18 @@
 			style="height: 230px;"
 		>
 			{#each items as item}
+				<Modal title={item.title} bind:open={item.modal_open} size="xl" autoclose>
+					<Carousel
+						images={item.images}
+						let:Indicators
+						let:Controls
+						duration="3000"
+						imgClass="object-contain h-full w-fit rounded-sm"
+					>
+						<Indicators />
+						<Controls class="items-center text-blue-800  pt-4" />
+					</Carousel>
+				</Modal>
 				<div class="col-lg-4 col-md-6 portfolio-item filter-{item.category.toLowerCase()}">
 					<div class="portfolio-wrap">
 						<ImageLoader
@@ -71,15 +62,11 @@
 							<h4>{item.title}</h4>
 							<p>{item.category}</p>
 							<div class="portfolio-links">
-								<a
-									href="assets/img/portfolio/portfolio-1.jpg"
-									data-gallery="portfolioGallery"
-									class="portfolio-lightbox"
-									title="Gallery"
-									><i class="bx">
+								<button on:click={() => (item.modal_open = true)} title="Gallery">
+									<i class="bx">
 										<Plus width="1em" height="1em" />
-									</i></a
-								>
+									</i>
+								</button>
 								{#if item.url != ''}
 									<a target="blank" href={item.url} title="More Details">
 										<i class="bx">
