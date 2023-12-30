@@ -2,7 +2,7 @@
 	import Menu from 'svelte-material-icons/Menu.svelte';
 	import Close from 'svelte-material-icons/Close.svelte';
 	import { base } from '$app/paths';
-
+	import Earth from 'svelte-material-icons/Earth.svelte';
 	let icon = Menu;
 	let nav_class = '';
 
@@ -60,4 +60,14 @@
 			</i>
 		</nav>
 	</div>
+	<a href="https://www.ladetec.com" class="float_end">
+		<Earth width="2.5em" height="2.5em" color="#0000cc" />
+	</a>
 </header>
+
+<style>
+	.float_end {
+		float: right;
+		margin-right: 10px;
+	}
+</style>
